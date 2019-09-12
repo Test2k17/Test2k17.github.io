@@ -1,0 +1,316 @@
+/********************************************************************************
+***** GLOBAL
+********************************************************************************
+********************************************************************************/
+
+body {
+  padding-top: 146px;
+}
+
+.navbar {
+  padding-top: 32px;
+  padding-bottom: 16px;
+  background-color: #000000;
+}
+.navbar .navbar-brand {
+  color: #b3b3b3;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar .navbar-text {
+  color: #b3b3b3;
+}
+.navbar .navbar-text a {
+  color: #ffffff;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #ffffff;
+}
+.navbar .navbar-nav .nav-link {
+  color: #b3b3b3;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #ff0055;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #ffffff;
+  background-color: #ff0055;
+}
+.navbar .navbar-toggle {
+  border-color: #ff0055;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #ff0055;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #b3b3b3;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #b3b3b3;
+}
+.navbar .navbar-link {
+  color: #b3b3b3;
+}
+.navbar .navbar-link:hover {
+  color: #ffffff;
+}
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #b3b3b3;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #ff0055;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #b3b3b3;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #ff0055;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #b3b3b3;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #ff0055;
+  }
+}
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #b3b3b3;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #ff0055;
+  }
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #b3b3b3;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #ffffff;
+  background-color: #ff0055;
+}
+
+#social-icons {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 8px;
+}
+.fab {
+  color: #b3b3b3;
+}
+.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-linkedin-in, .fa-youtube, .fa-google-plus-g {
+  margin-right: 24px;
+}
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-linkedin-in:hover, .fa-youtube:hover, .fa-google-plus-g:hover {
+  color: #ff0055;
+}
+
+/* Actual default logo colours
+.fa-facebook-f:hover {
+  color: #3C5A99;
+}
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+.fa-instagram:hover {
+  color: #833AB4;
+}
+.fa-linkedin-in:hover {
+  color: #0077B5;
+}
+.fa-youtube:hover {
+  color: #FF0000;
+}
+.fa-google-plus-g:hover {
+  color: #DB4437;
+}
+*/
+#logo {
+  width: 178px;
+  height: 88px;
+}
+
+.page-section h1 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+
+
+
+/********************************************************************************
+***** FOOTER
+********************************************************************************
+********************************************************************************/
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #000000;
+  color: #b3b3b3;
+}
+footer h4 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #ff0055;
+}
+.footer-links a {
+  color: #b3b3b3;
+  text-decoration: none !important;
+}
+.footer-links a:hover {
+  color: #ff0055;
+}
+.footer-contact .fas {
+  color: #ff0055;
+  padding-right: 8px;
+}
+.footer-contact .fa-mobile-alt {
+  padding-left: 3.5px;
+}
+
+#copyright {
+  padding: 8px;
+  background-color: #ff0055;
+  color: #b3b3b3;
+}
+
+
+
+
+
+/********************************************************************************
+***** TESTIMONIAL PAGE
+********************************************************************************
+********************************************************************************/
+
+.testimonial-image {
+  margin-bottom: 24px;
+}
+
+.testimonial h5 {
+  text-align: center;
+}
+
+.testimonial-rating {
+  text-align: right;
+}
+
+.fa-star {
+  color: #ff9800;
+}
+
+
+
+
+
+/********************************************************************************
+***** WHY CHOOSE US
+********************************************************************************
+********************************************************************************/
+.whyus h4 {
+  text-align: center;
+}
+
+
+
+
+/********************************************************************************
+***** PRICES
+********************************************************************************
+********************************************************************************/
+.prices .container {
+  text-align: center;
+}
+
+.prices .col {
+  padding: 32px;
+  margin: 8px;
+  background: #000000;
+  color: #b3b3b3;
+}
+
+.price-price {
+  color: #ff0055;
+}
+
+.price-terms {
+  color: #ff0000;
+}
+
+
+
+
+/********************************************************************************
+***** CONTACT PAGE
+********************************************************************************
+********************************************************************************/
+
+.contact .map {
+  margin-bottom: 60px;
+}
+
+.contact .fa-map-marker-alt, .contact .fa-clock, .contact .fa-at, .contact .fa-mobile-alt {
+  font-size: 48px;
+  color: #ff0055;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.contact .contact-block {
+  border: 1px solid;
+  padding: 16px;
+  text-align: center;
+}
+.contact-content {
+  padding-bottom: 60px;
+}
+
+.contact .form {
+  padding-bottom: 40px;
+}
